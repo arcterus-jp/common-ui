@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/common_grey400">
+    <item>
+        <selector>
+            <item
+                android:state_enabled="false">
+                <shape android:shape="rectangle">
+                    <corners android:radius="4dp" />
+                    <solid android:color="@color/common_grey400"/>
+                </shape>
+            </item>
+            <item android:drawable="@drawable/common_shape_rectangle_radius_4dp_azure" />
+        </selector>
+    </item>
+</ripple>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_font_ss">10sp</dimen>
+    <dimen name="common_font_s">12sp</dimen>
+    <dimen name="common_font_m">14sp</dimen>
+    <dimen name="common_font_l">16sp</dimen>
+    <dimen name="common_font_2l">18sp</dimen>
+
+    <style name="FlatButton" parent="Widget.AppCompat.Button.Borderless"/>
+
+    <style name="FlatButton.Accent" parent="Widget.AppCompat.Button.Borderless.Colored"/>
+
+    <style name="RaisedButton" parent="Widget.AppCompat.Button"/>
+
+    <style name="RaisedButton.Accent" parent="Widget.AppCompat.Button.Colored"/>
+
+    <style name="Button" parent="FlatButton">
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="Button.Raised" parent="RaisedButton">
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="Button.Blue">
+        <item name="android:background">@drawable/common_selector_rectangle_radius_4dp_blue</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Button.Azure">
+        <item name="android:background">@drawable/common_selector_rectangle_radius_4dp_azure</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Button.Gray">
+        <item name="android:background">@drawable/common_blue_on_gray_button_background</item>
+        <item name="android:textColor">@color/common_azure</item>
+    </style>
+
+    <style name="Button.BlueOutline">
+        <item name="android:background">@drawable/common_blue_on_white_button_background</item>
+        <item name="android:textColor">@color/common_blue</item>
+    </style>
+
+    <style name="Button.AzureOutline">
+        <item name="android:background">@drawable/common_azure_on_white_button_background</item>
+        <item name="android:textColor">@color/common_azure</item>
+    </style>
+
+    <style name="Button.Raised.Blue">
+        <item name="android:background">@drawable/common_selector_rectangle_radius_4dp_blue</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Button.Raised.Azure">
+        <item name="android:background">@drawable/common_selector_rectangle_radius_4dp_azure</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Button.Raised.BlueOutline">
+        <item name="android:background">@drawable/common_blue_on_white_button_background</item>
+        <item name="android:textColor">@color/common_blue</item>
+    </style>
+
+    <style name="Button.Raised.AzureOutline">
+        <item name="android:background">@drawable/common_azure_on_white_button_background</item>
+        <item name="android:textColor">@color/common_azure</item>
+    </style>
+
+    <style name="Button.Raised.Gray">
+        <item name="android:background">@drawable/common_blue_on_gray_button_background</item>
+        <item name="android:textColor">@color/common_azure</item>
+    </style>
+
+
+    <style name="TTL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:textColor">@color/common_grey500</item>
+        <item name="android:textSize">@dimen/common_font_m</item>
+        <item name="android:background">@color/common_grey200</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <!-- 現状見出し1, 2によるUI差分はなし -->
+    <style name="TTL.1"/>
+    <style name="TTL.2"/>
+
+    <style name="Icon" parent="Widget.AppCompat.ImageButton">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="Icon.Dot">
+        <item name="srcCompat">@drawable/common_ic_more_vert_grey_24px_vector</item>
+    </style>
+
+    <style name="Icon.Dot.Horiz">
+        <item name="srcCompat">@drawable/common_ic_more_horiz_grey_24px_vector</item>
+    </style>
+
+    <style name="Icon.Setting">
+        <item name="srcCompat">@drawable/common_ic_settings_grey_24px_vector</item>
+    </style>
+
+    <style name="Label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:textSize">@dimen/common_font_ss</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Label.Red">
+        <item name="android:textColor">@color/common_red_A100</item>
+        <item name="android:background">@drawable/common_red_a100_label</item>
+    </style>
+
+    <style name="Label.LightBlue">
+        <item name="android:textColor">@color/common_light_blue</item>
+        <item name="android:background">@drawable/common_light_blue_label</item>
+    </style>
+</resources>
